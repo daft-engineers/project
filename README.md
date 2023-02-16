@@ -20,9 +20,15 @@ Matthew plans to make the presentation and look at the licence stuff
 Angus plans to make the presentation and have a look at the hardware plan.
 James plans to make the presentation and take a look at a software overview. 
 
-#15/02/2023
+# 15/02/2023
 Matthew has been looking at linting and static analysis and integrating them with cmake. He will finish that off and maybe start writing code.
 Mark has started working with googletest, started writing the filter class and started work on the logo. mark will continue with those, prioritising the unit tests. 
 Angus will start working on the CI.
 James has had a look at doxygen, linting and testing framework and sourced the codec zero hardware and will try to finish doxygen and startloooking at the audio driver. 
 
+# 16/02/2023
+James: looked at alsa, may be worth considering jack or pulse if they're easier to use. Will keep looking at the audio driver stuff. 
+Mark: set up google test with cmake, made it work with the newest version of gtest. Made 2 draft logos, with the second one being better recieved. Will finalise logo, and addd to accounts. Do more filter code, probaby start with unit tests.
+Matthew: Set up clang format and clang tidy, with definitions. Wrote a script that runs them both. Will finish the work on clang format and tidy related CI and then pick up another ticket, probably audio driver. 
+
+Clang format: committed files should pass clang format, can block merge until they work.

@@ -30,5 +30,6 @@ James has had a look at doxygen, linting and testing framework and sourced the c
 James: looked at alsa, may be worth considering jack or pulse if they're easier to use. Will keep looking at the audio driver stuff. 
 Mark: set up google test with cmake, made it work with the newest version of gtest. Made 2 draft logos, with the second one being better recieved. Will finalise logo, and addd to accounts. Do more filter code, probaby start with unit tests.
 Matthew: Set up clang format and clang tidy, with definitions. Wrote a script that runs them both. Will finish the work on clang format and tidy related CI and then pick up another ticket, probably audio driver. 
+Angus: Had a look at building and running tests within CI. Will continue with CI work
 
 Clang format: committed files should pass clang format, can block merge until they work.

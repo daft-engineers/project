@@ -33,3 +33,12 @@ Matthew: Set up clang format and clang tidy, with definitions. Wrote a script th
 Angus: Had a look at building and running tests within CI. Will continue with CI work
 
 Clang format: committed files should pass clang format, can block merge until they work.
+
+# 22/02/2023
+
+Angus: Got CI working to build and run the googletests, as well as the static analysis and formatting tools. Will need a little change and it will be ready to review. 
+James: Decided we're best using jack rather than straight alsa. Had a look at getting a callback running with that. Will keep working on that, hopefully with some help. 
+Mark: Got the logo just right, and attached it to all of our accounts. Got our first subscriber on our youtube account. Had a look at filters, made a little progress on unit testing. Will keep looking at the unit tests and try and get a filter class going. 
+Matthew: Previously completed the linting standard ticket, wrote a readme that gives an intro and includes build info. May start looking at data flow, or another ticket from backlog. 
+
+Dependencies, need to look at the "best" way to get them included. Made a ticket for it. 

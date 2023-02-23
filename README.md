@@ -71,4 +71,4 @@ Mark: Made the audio class with all the subclasses to represent messages. Did a 
 
 James: Looked at audio in. Will try and get jack registering call backs and translating them to the audio class. 
 
-No other business. 
+Audio class: Had a discussion about the audio class. James felt that there was no value to having different types depending on where the audio came from, and that it made the system more complicated and less modular. Matthew felt that this was making good use of the type system as we probably won't be mixing and matching the order of operations. We decided to simplify, and move one of the subclasses out as it wasn't actually audio.

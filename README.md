@@ -43,7 +43,7 @@ Matthew: Previously completed the linting standard ticket, wrote a readme that g
 
 Dependencies, need to look at the "best" way to get them included. Made a ticket for it. 
 
-#23/02/2023
+# 23/02/2023
 
 Matthew: Made sequence diagram, attached it to the issue and put it in the readme, and added the ticktok account to the readme. This finished the data flow ticket. Going to pick up a programming ticket. Going to update checks.sh to work on header files. 
 Angus: Broke CI worse, but has a plan to fix it. Will fix it today. 

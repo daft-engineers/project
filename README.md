@@ -42,3 +42,12 @@ Mark: Got the logo just right, and attached it to all of our accounts. Got our f
 Matthew: Previously completed the linting standard ticket, wrote a readme that gives an intro and includes build info. May start looking at data flow, or another ticket from backlog. 
 
 Dependencies, need to look at the "best" way to get them included. Made a ticket for it. 
+
+#23/02/2023
+
+Matthew: Made sequence diagram, attached it to the issue and put it in the readme, and added the ticktok account to the readme. This finished the data flow ticket. Going to pick up a programming ticket. Going to update checks.sh to work on header files. 
+Angus: Broke CI worse, but has a plan to fix it. Will fix it today. 
+Mark: Made the audio class with all the subclasses to represent messages. Did a little work on the filter class, all the setup is don. Will continue that today. Will probably start by getting unit tests running and failing for the filter class. 
+James: Looked at audio in. Will try and get jack registering call backs and translating them to the audio class. 
+
+no other business. 

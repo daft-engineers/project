@@ -72,3 +72,14 @@ Mark: Made the audio class with all the subclasses to represent messages. Did a 
 James: Looked at audio in. Will try and get jack registering call backs and translating them to the audio class. 
 
 Audio class: Had a discussion about the audio class. James felt that there was no value to having different types depending on where the audio came from, and that it made the system more complicated and less modular. Matthew felt that this was making good use of the type system as we probably won't be mixing and matching the order of operations. We decided to simplify, and move one of the subclasses out as it wasn't actually audio.
+
+# 01/03/2023
+
+Matthew: Worked on audio driver, discovered that the zodec zero doesn't apper to be working. Alsa was not able to find it. Reinstalled pios with a gui. Made it appear to the os but still couldn't get it working. Installed more alsa stuff and pulse. Different configs give different errors. Auidio works fine through the hdmi. Tried a new PI. Will head into the lab to ask tom ohara about it. 
+
+James: did a bit of work to checks.sh to add header file checking, which meant moving the headers and some other related stuff. Will finish getting the checks stuff reviewed and merged and pick up something or take another loook at doxy.
+
+Mark: Wrote the unit tests, and then realised that a delay needs to be added as the IIR filter can't start outputting immidiately. Will continue work on that. 
+
+Angus: Got CI finished, and picked up the level control module ticket. Will continue work on that. 
+

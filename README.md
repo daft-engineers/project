@@ -83,3 +83,14 @@ Mark: Wrote the unit tests, and then realised that a delay needs to be added as 
 
 Angus: Got CI finished, and picked up the level control module ticket. Will continue work on that. 
 
+# 09/03/2023
+
+James: finished work on checks, attended lab. Will pick up doxy again.
+
+Mark: Got the IIR filter working. Wrote the stuff to add unit tests to cmake automatically. Wrote more unit tests for the filter on runtime performance, based on an acceptable delay. Going to work on social media and then work on making the filter threaded.
+
+Angus: Worked on unit tests for amp and looked at implementing the amplifier. Will keep working on the amp.
+
+Matthew: Got alsa producing sound, and captured and wrapped it in a thread and make it call a user provided callback and it is now ready to review. Will have a look at message passing, and perhaps some devops. May investigate cpp 17 or 20. 
+
+AOB: Message passing

@@ -94,3 +94,11 @@ Angus: Worked on unit tests for amp and looked at implementing the amplifier. Wi
 Matthew: Got alsa producing sound, and captured and wrapped it in a thread and make it call a user provided callback and it is now ready to review. Will have a look at message passing, and perhaps some devops. May investigate cpp 17 or 20. 
 
 AOB: Message passing
+
+# 22/03/2023
+
+Mathew: Got the audio callback generator merged. Has done some work on the mixer, using templates. Currently working on testing, but strugling to get message passing working. Will continue working on that. 
+
+James: Put together a prtotype for message passing. Will look at matthew's message passing thing and peraps doxygen. 
+
+Angus: 

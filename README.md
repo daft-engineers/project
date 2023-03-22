@@ -97,8 +97,12 @@ AOB: Message passing
 
 # 22/03/2023
 
-Mathew: Got the audio callback generator merged. Has done some work on the mixer, using templates. Currently working on testing, but strugling to get message passing working. Will continue working on that. 
+Mathew: Got the audio callback generator merged. Has done some work on the mixer, using templates. Added a timeout to the unit tests to fail after time rather than hanging forever. Currently working on testing, but strugling to get message passing working. Will continue working on that. 
 
 James: Put together a prtotype for message passing. Will look at matthew's message passing thing and peraps doxygen. 
 
-Angus: 
+Angus: Worked on the amp. Will finish the amp and then pick a new ticket. 
+
+Mark: Modified the filter stuff to use message passing and threading. Did some paperwork for socials. Will modify unit tests to run with the filter funtion being private and will also try and test the message passing. 
+
+AOB: Threading: Classes should have a start and stop fn to wrap up the logic and make the main. 

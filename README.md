@@ -97,7 +97,7 @@ AOB: Message passing
 
 # 22/03/2023
 
-Mathew: Got the audio callback generator merged. Has done some work on the mixer, using templates. Added a timeout to the unit tests to fail after time rather than hanging forever. Currently working on testing, but strugling to get message passing working. Will continue working on that. 
+Matthew: Got the audio callback generator merged. Has done some work on the mixer, using templates. Added a timeout to the unit tests to fail after time rather than hanging forever. Currently working on testing, but strugling to get message passing working. Will continue working on that. 
 
 James: Put together a prtotype for message passing. Will look at matthew's message passing thing and peraps doxygen. 
 
@@ -106,3 +106,15 @@ Angus: Worked on the amp. Will finish the amp and then pick a new ticket.
 Mark: Modified the filter stuff to use message passing and threading. Did some paperwork for socials. Will modify unit tests to run with the filter funtion being private and will also try and test the message passing. 
 
 AOB: Threading: Classes should have a start and stop fn to wrap up the logic and make the main. 
+
+# 23/03/2023
+
+Mark: Got the filter working, aside from getting cmake just so. Will fix cmake and put it up for review. Will start the level meter if there's time.
+
+Matthew: Mixer done and ready for review. Had some discussion about using cpp 11 pointers, but decided that they were inappropriate because they're designed for managing dynamic storage, and standard references (not raw pointers) are more appropriate. Will address any comments on PR and take a look at CI. It isn't stateless so if two people push at nearly the same time, it falls over. Also worth adding multithreaded building and only building what's needed while working on the CI. 
+
+James: Will take Doxygen today. Doxygen should be added to CI
+
+Angus: Made changes to te audio class. Did a little more work on the amp, but was not able to get it quite working. Will keep finish the amp. 
+
+AOB: Final integration: need to plan before the demo. 

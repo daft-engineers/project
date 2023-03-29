@@ -115,6 +115,18 @@ Matthew: Mixer done and ready for review. Had some discussion about using cpp 11
 
 James: Will take Doxygen today. Doxygen should be added to CI
 
-Angus: Made changes to te audio class. Did a little more work on the amp, but was not able to get it quite working. Will keep finish the amp. 
+Angus: Made changes to the audio class. Did a little more work on the amp, but was not able to get it quite working. Will keep finish the amp. 
 
 AOB: Final integration: need to plan before the demo. 
+
+# 29/03/2023
+
+James: Did the level meter/RMS. Will start to look at doxy.
+
+Angus Got the amp logic working separately. Will work on threading it now. 
+
+Matthew: made the mixer thread safe. Modified the CI so that it runs the unit tests multiple times and any failed run makes the whole thing fail. Added a timeout to CI so that if you submit something that hangs, it will run forever. Made Ci jobs concurrent so only one CI job can have resources at one time to avoid issues with 2 folk running tests at the same time. Set it to run jobs in separate folders to help with this problem as well. Will pick up another ticket.
+
+Mark: Finished the filter and got it merged, will pick up another ticket. 
+
+AOB: should we switch to working in the signed domain, at the start. 

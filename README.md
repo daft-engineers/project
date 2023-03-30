@@ -130,3 +130,8 @@ Matthew: made the mixer thread safe. Modified the CI so that it runs the unit te
 Mark: Finished the filter and got it merged, will pick up another ticket. 
 
 AOB: should we switch to working in the signed domain, at the start. 
+
+# 30/03/2023
+
+AOB 2 and a half weeks to get the project finished. Matthew reckons we should be trying to integrate on Monday or over the weekend. Output audio is the worse thing left, getting the amp and rms merged should be relatively easy. Need to get the box cut out, and get the hardware ordered. 
+

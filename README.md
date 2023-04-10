@@ -135,3 +135,15 @@ AOB: should we switch to working in the signed domain, at the start.
 
 AOB 2 and a half weeks to get the project finished. Matthew reckons we should be trying to integrate on Monday or over the weekend. Output audio is the worse thing left, getting the amp and rms merged should be relatively easy. Need to get the box cut out, and get the hardware ordered. 
 
+# 10/04/2023
+
+Matthew: Changed to wait with timeout for all code, rather than waiting forever if the thread before dies. Discovered an issue with linux time slices, and spent a long time working with that. Worked out that if the timeout is made 10ms it fails very rarely, and 100 ms should be fine. Debugged apt. Will look at unifying the timeout length definition and running a big nightly run. 
+
+Angus: Troubleshot the timer stuff with matthew. Ran a big test with 100ms. Raised PR for amp and responded to comments. Ordered XLR jack from Tom O'Hara. Will work on hardware and the box. May pick up another ticket. 
+
+James: Got the level meter merged, after lots of rounds of review. Did a bit of work on doxygen. Got it generating the docs without the stuff we haven't done in it. Did a bit of work getting it to run with CI, but didn't quite get that working. Will keep working on that. 
+
+Mark: Worked on alsa output. Made the speaker make noise. Got it mostly working, just on final touches. Will keep working on that, and start thinking about integration.
+
+AOB: timeout should be defined in one file, rather than individually. Nightly CI to run lots of tests for threading. Need to add more to the readme for the sake of marking so that this and the project board can be found. Need to talk to andrew and get our box cut out. 
+

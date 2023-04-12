@@ -147,3 +147,11 @@ Mark: Worked on alsa output. Made the speaker make noise. Got it mostly working,
 
 AOB: timeout should be defined in one file, rather than individually. Nightly CI to run lots of tests for threading. Need to add more to the readme for the sake of marking so that this and the project board can be found. Need to talk to andrew and get our box cut out. 
 
+# 12/04/2023
+
+James: Got a bit more done on doxygen, will keep working on getting it working with CI
+
+Angus: Got the amplifier module merged. Started working on wiring. Wired a microphone amp and and other inputs. Worked on making the pi boot straight to the vocoder. Will keep working on wiring.
+
+Mark: Started working on integration, mostly finished, on to chasing bugs now. Will keep working on it. There may be issues with how to stop the program, mark thinks it should never stop as that is how it will be used. 
+

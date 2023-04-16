@@ -2,7 +2,7 @@
 
 # Scrum notes
 
-## 20/01/2023
+# 20/01/2023
 2 main project ideas:
 Gimbal: Good pitch/marketing potential as a unspillable beer carrier thing. Plenty of real time processing to be done with some filtering and control. Mechanical parts could be diifficult to create and servo motors of suffiient performance are expensive, and would require us to spend our owm money on it. Would have to be battery powered which adds to cost and complexity that isn't really contributing to the mark. The complex processing is a double edged sword as if it isn't close to perfect then it'll be completely useless.
 
@@ -17,7 +17,7 @@ A Github project was created and fleshed out with a few initial issues, Mark was
 Minimum viable product would be to take voice as one input and the carrier as the other, do the processing in real time and produce an output. 
 Improved experience would be to have a physical keyboard as well and have the pi create the carrier using the input from the keyboard. 
 
-## 23/01/2023
+# 23/01/2023
 
 Mark had a look and decided that the vocoder was reasonable. Mark plans to put together a proof of concept in ableton.
 

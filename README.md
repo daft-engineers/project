@@ -155,3 +155,15 @@ Angus: Got the amplifier module merged. Started working on wiring. Wired a micro
 
 Mark: Started working on integration, mostly finished, on to chasing bugs now. Will keep working on it. There may be issues with how to stop the program, mark thinks it should never stop as that is how it will be used. 
 
+# 18/04/2023
+
+Angus: Attempted to get an external amp working, ended up not needing it. Did a hardware setup guide and some other docs, and helped with integration.
+
+Matthew: Worked on integration with mark, indentified some big problems with main, made some tickets for eveyone, and then worked on implementening those changes.
+
+James: Made quite a few changes to RMS with problems that were discovered in integration, got the docs hosted on github pages, finished off writing docs for the modules that everyone else missed, did a licence checkup.
+
+Mark: Worked on integration, found problems with RMS, found out that boosting high frequencies make it sound better, and eliminating the delay. 
+
+AOB: nice work folks.
+
